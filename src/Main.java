@@ -2,8 +2,8 @@
 // [X] 1. Klass Katt: namn, chipnummer, ras, konstruktor, getters
 // [X] 2. Klass KattHotell: privat lista och en dörr in
 // [X] 3. Dubblettskydd på chipnummer, testas från Main
-// [ ] 4. Print som skriver namn, ras och chipnummer
-// [ ] 5. Visa när hotellet är tomt
+// [X] 4. Print som skriver namn, ras och chipnummer
+// [X] 5. Visa när hotellet är tomt
 
 public class Main {
     public static void main(String[] args) {
