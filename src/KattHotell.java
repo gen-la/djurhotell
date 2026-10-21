@@ -25,4 +25,14 @@ public class KattHotell {
     public int antalKatter() {
         return katter.size();
     }
+
+    public void listaAlla() {
+        if (katter.isEmpty()) {
+            System.out.println("Hotellet är tomt. Inga katter är incheckade.");
+             return;
+        }
+        for (Katt k : katter) {
+            System.out.println(k.getNamn() + " (" + k.getRas() + ") - Chip: " + k.getChipnummer());
+        }
+    }
 }
