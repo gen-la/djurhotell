@@ -1,0 +1,2 @@
+## Katthotell
+Katthotellet låter använder lägga till en katt med namn, ras och chipnummer. Denna info sparas i en arraylista (private och kan endast skrivas till via KattHotell.java). Om man försöker lägga till fler än en katt med samma chipnummer får man ett meddelande om att det redan finns en katt med det nummret. KattHotell.java har även funktioner för att visa antalet katter är sparade i listan och skriva ut alla katter + info.
