@@ -12,13 +12,7 @@
 public class Main {
     public static void main(String[] args) {
         KattHotell hotell = new KattHotell();
-        hotell.listaAlla();
-        hotell.laggTill(new Katt("Bo", 101, "Siames"));
-        hotell.laggTill(new Katt("Lulu", 102, "Ragdoll"));
-        //if (!hotell.laggTill(new Katt("Kopia", 101, "Perser"))) {
-        //    System.out.println("Dubblett nekad");
-        //}
-        System.out.println("Antal: " + hotell.antalKatter());
-        hotell.listaAlla();
+        
+        
     }
 }
